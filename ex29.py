@@ -3,6 +3,9 @@
 # In other words, ( if x is True: print "a short story" )
 # Indentation is needed for syntax purpouses. if you do not indent you will get
 # "IndentationError: expected an indented block".
+# If you do not create a colon after the new block of code is declared,
+# you will get a SyntaxError: invalid syntax.
+
 people = 20
 cats = 30
 dogs = 15

@@ -1,3 +1,5 @@
+# Prompting People
+
 # this is a more refined version of ex11.py
 # you can insert the print statements within a raw_input() function.
 age = raw_input("How old are you? ")

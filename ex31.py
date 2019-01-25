@@ -1,3 +1,5 @@
+# Making Decisions
+
 # This script plays a short text adventure game. The user is able to choose door 1, or door 2.
 # There are multiple options to choose in each room, this is done using if, elif, and else nesting.
 # The only way to "win" this game is to choose niether 1 or 2 when in the flower room. (he runs away.)

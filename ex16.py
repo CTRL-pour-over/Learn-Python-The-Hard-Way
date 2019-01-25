@@ -1,3 +1,5 @@
+# Reading and Writing Files
+
 # This script takes a given file and re-writes it. Careful!
 from sys import argv
 script, filename = argv

@@ -1,11 +1,13 @@
+# More Printing
+
 print "Mary had a little lamb."
 print "Its fleece was white as %s." % 'snow'
 print "And everywhere that Mary went."
-# You can use math with print statements
-# line 9 creates 10 .(periods) in the script
-print "." * 10 # what'd that do?
+# Again, you can use math with print statements
+# line below this will print ..........
+print "." * 10 # what'd that do?  printed ..........
 
-# not a good way to save variables
+# There's probably an easier way to do this.
 end1 = "C"
 end2 = "h"
 end3 = "e"
@@ -24,4 +26,4 @@ print end1 + end2 + end3 + end4 + end5 + end6, # the comma keeps cheese burger o
 print end7 + end8 + end9 + end10 + end11 + end12
 # without the comma you get . . .
 # Cheese
-# Burger 
+# Burger

@@ -1,3 +1,5 @@
+# Asking Questions
+
 print "How old are you?",
 # raw_input() allows the end user to input words or letters.
 # here we collect the age variable from the user. We'll spit that out later

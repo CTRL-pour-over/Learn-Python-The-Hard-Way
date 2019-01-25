@@ -1,5 +1,10 @@
+# Variables And Names
+# This script saves a numeric value to a variable.
+# Then is does math with just the variables using their numeric values.
+# It also prints the numeric values in the same lines as print statements
+# This is done by placing a comma after a string, then after the variable, before the next string.
 cars = 100
-# floating point numbers allow fractional outcomes 
+# floating point numbers (4.0) allow fractional outcomes
 space_in_a_car = 4.0
 drivers = 30
 passengers = 90

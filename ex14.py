@@ -1,3 +1,5 @@
+# Prompting and Passing
+
 from sys import argv
 # you have to give a user_name argument when trying to run the program
 # script saved ex14.py from when we typed it into the terminal for later use in text.

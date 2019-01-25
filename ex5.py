@@ -1,3 +1,5 @@
+# More Variables and Printing
+# This script saves different data type like age and name and prints them out at the appropriate times.
 my_name = 'zed A. Shaw'
 my_age = 35 # not a lie
 my_height = 74 # inches
@@ -6,7 +8,7 @@ my_eyes = 'Blue'
 my_teeth = 'White'
 my_hair = 'Brown'
 
-# the % operator lets you input code into a string 
+# the % operator lets you input code into a string
 print "Let's talk about %s." % my_name
 print "He's %d inches tall." % my_height
 print "He's %d pounds heavy." % my_weight

@@ -1,3 +1,6 @@
+# Numbers and Math
+# This script introduces simple operators and solves simple math.
+# You can also do math on the same line where you're printing strings. 
 print "I will now count my chickens:"
 # python will print out the math aside from the strings, on one line
 print "Hens", 25 + 30 / 6

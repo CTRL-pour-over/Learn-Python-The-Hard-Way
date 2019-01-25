@@ -1,3 +1,5 @@
+# Parameters, Unpacking, Variables
+
 # line 2 is where we import argv
 from sys import argv
 # here is where we unpack our modules

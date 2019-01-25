@@ -1,3 +1,5 @@
+# Functiions Can Return Something
+
 # call function() and insert parameters for (a, b)
 def add(a, b):
   print "ADDING %d + %d" % (a, b)

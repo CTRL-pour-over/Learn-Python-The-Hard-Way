@@ -1,3 +1,5 @@
+# While loops
+# This script introduces while-loops. The code will keep running until the block is False
 i = 0
 numbers = []
 

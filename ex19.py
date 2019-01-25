@@ -1,3 +1,5 @@
+# Functions and Variables
+
 # this is our main function. everything in the script will run through this eventually
 def cheese_and_crackers(cheese_count, boxes_of_crackers):
     print "You have %d cheeses!" % cheese_count

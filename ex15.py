@@ -1,3 +1,5 @@
+# Reading Files
+
 # this file is designed to open and read a given file as plain text
 # provide ex15.py with an argument (file) and it will read it to you
 # then it will as for the filename again, you can also give it a different file.

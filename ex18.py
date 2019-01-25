@@ -1,3 +1,5 @@
+# Names, Variables, Code, Functions
+
 # ex18 introduces functions. Welcome to the new world.
 # This one is like your scripts with argv
 def print_two(*args):

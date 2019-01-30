@@ -4,4 +4,4 @@ c = "HE GON FIND ANOTHER GIRL THEN HE WONT MISS YA!"
 d = "HE GON SKIRT THEN HIT THE DAB LIKE WIZ KHALIFA!!"
 
 while a is not b:
-    print (a, b, c, d) * 69
+    print (a, b, c, d) * 690

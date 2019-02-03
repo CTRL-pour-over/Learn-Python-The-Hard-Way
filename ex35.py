@@ -1,21 +1,30 @@
 from sys import exit
 
-def gold_room():
+def readint():
+    while True:
+        choice = raw_input("Type something and ill make sure its a number.")
+        try:
+            num = int(choice)
+            return num
+        except ValueError:
+            print "Man, learn how to type a number."
+
+
+def gold_room(): #also a subroutine
     print "This room is full of gold. How much do you take?"
 
-    choice = raw_input("> ")
-    if "0" in choice or "1" in choice:
-        how_much = int(choice)
-    else:
-        dead("Man, learn to type a number.")
-
+    how_much = readint()
+    print "this is the how_much value %r" % how_much
     if how_much < 100:
-        print "Nice, you're not greedy, you win!"
+        print "Great! You aren't gready! You win!"
         exit(0)
     else:
-        dead("You greedy bastard!")
+        dead("So greedy... Much shame.")
 
 
+
+#probably the most complex block of code in this script.
+#this is due to the door opening function using the while loop.
 def bear_room():
     print "There is a bear here."
     print "The bear has a bunch of honey."
@@ -23,7 +32,7 @@ def bear_room():
     print "How are you going to move the bear?"
     bear_moved = False
 
-    while True:
+    while True: # it is true the bear_moved = False
         choice = raw_input("> ")
 
         if choice == "take honey":

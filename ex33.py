@@ -22,26 +22,26 @@
 
 
 #This study drill asks that we re-create the while-loop design using only a function()
-#def buildList(num):
-#    numList = []
-#    i = 0
-#    while i < num:
-#        numList.append(i)
-#        i += 1
-#        print "i: %d, " % i,
-#        print "list: ", numList
+def buildList(num):
+    numList = []
+    i = 0
+    while i < num:
+        numList.append(i)
+        i += 1
+        print "i: %d, " % i,
+        print "list: ", numList
     #note: you don't need to return a value
 
 #you can hard code any number here, of course
-#buildList(6)
+buildList(6)
 
 
 #This study drill asks to re-create the while-loop using a for-loop and range()
-i = 0
-list = []
-print "This is before the loop"
-for i in range(6):
-    print("Here are the numbers: %d") % i
-    print "this is the end of the loop"
+#i = 0
+#list = []
+#print "This is before the loop"
+#for i in range(6):
+#    print("Here are the numbers: %d") % i
+#    print "this is the end of the loop"
 
-print "this is a new block of code, signifying the end of the script. Have a nice day."
+#print "this is a new block of code, signifying the end of the script. Have a nice day."

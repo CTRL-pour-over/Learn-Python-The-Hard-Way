@@ -1,23 +1,23 @@
 from sys import exit
 
-def readint():
+def readint(): #here is the function that will except the ValueError we would otherwise get if you typed letters
     while True:
         choice = raw_input("Type something and ill make sure its a number.")
         try:
-            num = int(choice)
-            return num
-        except ValueError:
+            num = int(choice) #makes sure 'choice' is an integer and saves it to 'num'
+            return num #returning num as long as it's a number.
+        except ValueError: #getting around a ValueError that occors if you type letters as the answer.
             print "Man, learn how to type a number."
 
 
 def gold_room(): #also a subroutine
     print "This room is full of gold. How much do you take?"
 
-    how_much = readint()
+    how_much = readint() #'how_much' is pretty much the 'num' variable from the readint() function.
     print "this is the how_much value %r" % how_much
     if how_much < 100:
         print "Great! You aren't gready! You win!"
-        exit(0)
+        exit(0) #this is the safe exit to python scripts. you win
     else:
         dead("So greedy... Much shame.")
 
